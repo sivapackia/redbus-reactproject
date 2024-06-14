@@ -38,7 +38,6 @@ const Component=()=>{
     const [anchorElUser, setAnchorElUser] = React.useState(null);
     const[from,setfrom]=useState("")
     const[to,setto]=useState("")
-    const[date,setdate]=useState(null)
   
     const handleOpenNavMenu = (event) => {
       setAnchorElNav(event.currentTarget);
@@ -69,10 +68,7 @@ const Component=()=>{
     console.log(yyyy)
 
     const a=useNavigate()
-    let todaydate=date
-    console.log(todaydate)
-
-
+  
     const Search=()=>{
       let x=State.Array.some((value,index)=>{
         return from==value.from && to==value.to
@@ -90,18 +86,14 @@ const Component=()=>{
     }
 
     const Handle=(event)=>{
-        if(event.target.name==="From"){
+        if(event.target.name=="From"){
           setfrom((event.target.value).toUpperCase())
  
         }
-        if(event.target.name==="To"){
+        if(event.target.name=="To"){
           setto((event.target.value).toUpperCase())
         }
-        // if(event.target.name==="date"){
-        //   setdate((event.target.value))
-        // }
     }
-    console.log(date)
 
     return(
         <>
@@ -315,7 +307,7 @@ const Component=()=>{
               </Typography>
             </Typography>
             <Typography sx={{width:"25%",textAlign:"center",borderRight:"1px solid gray",padding:"50px 0px"}}>
-              <Typography component="input" type="date" className="Input" value={date} name="date" onChange={Handle}>
+              <Typography component="input" type="date" className="Input">
               </Typography>
             </Typography>
             <Typography sx={{width:"25%",textAlign:"center",borderRadius:"0px 30px 30px 0px",padding:"50px 0px",backgroundColor:"rgb(216, 78, 85)"}}  onClick={()=>Search()}>
@@ -342,7 +334,7 @@ const Component=()=>{
               </Typography>
       </Typography>
       <Typography sx={{width:{xs:"95%",sm:"95%"},textAlign:"center",borderRight:"1px solid gray",padding:"20px 0px",boxShadow:"0px 0px 5px gray",margin:"auto",marginBottom:"15px"}}>
-              <Typography component="input" type="date" className="Input" value={date} name="date" onChange={Handle}>
+              <Typography component="input" type="date" className="Input">
               </Typography>
             </Typography>
       <Typography sx={{width:{xs:"95%",sm:"95%"},textAlign:"center",borderRadius:"10px",padding:"20px 0px",backgroundColor:"rgb(216, 78, 85)",boxShadow:"0px 0px 5px gray",margin:"auto",marginBottom:"15px"}}  onClick={()=>Search()}>
