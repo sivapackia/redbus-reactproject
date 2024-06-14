@@ -1,0 +1,33 @@
+.global{
+    .css-r6ewbb-MuiToolbar-root{
+               display:block;
+    }
+ 
+    #second_items{
+        background-image:url(https://st.redbus.in/Images/HomeIndia/HeroImage.png);
+        background-repeat: no-repeat;
+    }
+    .Input:focus{
+        outline: none;
+    }
+    .Input{
+        border: none;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 60%;
+    }
+    ::placeholder {
+        color: black;
+        font-weight: 600;
+      }
+    #fivth-page{
+        background-image:url(https://s1.rdbuz.com/web/images/homeV2/appinstall/appInstallbg.svg);
+        height:65vh;
+        background-repeat: no-repeat;
+        border-radius: 30px 30px 30px 30px;
+        width: 100%;
+        margin-top: 30px;
+    }   
+
+}
+

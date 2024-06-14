@@ -1,0 +1,377 @@
+{
+
+    "BusArray":[{
+        "from":"TIRUNELVELI",
+        "to":"CHENNAI",
+        "busid":1,
+        "bus":[
+            {
+                "Busname":"Rspk Bus Services",
+                "busno":1,
+                "type":"A/C Seater / Sleeper (2+1)",
+                "starttime":"21.30",
+                "start":"Tirunelveli",
+                "duration":"11h 30m",
+                "arrival":"Chennai",
+                "rating":"4.5",
+                "fare":800,
+                "seatavabilty":"2 Seat Avabile",
+                "windowset":"2 Window Avabile",
+                "tracking":"Live Tracking",
+                "return":"Return Trip redDeal : Unlock min. 10% OFF on return ticket",
+                "bord":"Boarding Point",
+                "drop":"Droping Point",
+                "drop1":"Tirunelveli New Bus Stop",
+                "drop2":"Tirunelveli Old Bus Stop",
+                "drop3":"Tirunelveli Junction",
+                "board1":"Madavakam",
+                "board2":"Chennai Junction",
+                "board3":"Chennai New Bus Stop",
+                "isSeat":false,
+                "isbook":false,
+                "seats":[
+                    {
+                    "no":1,"isSelect":false,"isBooked":false,"isGender":false,"id":"1-A", "busno":1
+                 },
+                {
+                    "no":2,"isSelect":false,"isBooked":false,"isGender":false,"id":"2-A", "busno":1
+                },
+                {
+                    "no":3,"isSelect":false,"isBooked":false,"isGender":false,"id":"3-A","busno":1
+                },
+                {
+                    "no":4,"isSelect":false,"isBooked":false,"isGender":false,"id":"4-A", "busno":1
+                },
+                {
+                   "no":5,"isSelect":false,"isBooked":false,"isGender":false,"id":"5-A", "busno":1
+                },
+                {
+                    "no":6,"isSelect":false,"isBooked":false,"isGender":false,"id":"6-A","busno":1
+                },
+                {
+                    "no":7,"isSelect":false,"isBooked":false,"isGender":false,"id":"7-A", "busno":1
+                },
+                {
+                    "no":8,"isSelect":false,"isBooked":false,"isGender":false,"id":"8-A", "busno":1 
+                },
+                {
+                    "no":9,"isSelect":false,"isBooked":false,"isGender":false,"id":"9-A", "busno":1
+                },
+                {
+                    "no":10,"isSelect":false,"isBooked":false,"isGender":false,"id":"10-A", "busno":1
+                }
+                ,
+                {
+                    "no":11,"isSelect":false,"isBooked":false,"isGender":false,"id":"11-A", "busno":1
+                },
+                {
+                    "no":12,"isSelect":false,"isBooked":false,"isGender":false,"id":"12-A", "busno":1
+                },
+                {
+                    "no":13,"isSelect":false,"isBooked":false,"isGender":false,"id":"13-A", "busno":1
+                },
+                 {
+                    "no":14,"isSelect":false,"isBooked":false,"isGender":false,"id":"14-A","busno":1
+                },
+                {
+                    "no":15,"isSelect":false,"isBooked":false,"isGender":false,"id":"15-A", "busno":1
+                }   
+            ]
+            },
+            {
+                "Busname":"AvRmV Bus Services",
+                "busno":2,
+                "type":"A/C Seater / Sleeper (2+1)",
+                "starttime":"21.30",
+                "start":"Tirunelveli",
+                "duration":"11h 30m",
+                "arrival":"Chennai",
+                "rating":"4.3",
+                "fare":900,
+                "seatavabilty":"2 Seat Avabile",
+                "windowset":"2 Window Avabile",
+                "tracking":"Live Tracking",
+                "return":"Return Trip redDeal : Unlock min. 10% OFF on return ticket",
+                "bord":"Boarding Point",
+                "drop":"Droping Point",
+                "drop1":"Tirunelveli New Bus Stop",
+                "drop2":"Tirunelveli Old Bus Stop",
+                "drop3":"Tirunelveli Junction",
+                "board1":"Madavakam",
+                "board2":"Chennai Junction",
+                "board3":"Chennai New Bus Stop",
+                "isSeat":false,
+                "isbook":false,
+                "seats":[
+                    {
+                    "no":1,"isSelect":false,"isBooked":false,"isGender":false,"id":"1-B", "busno":2
+                 },
+                {
+                    "no":2,"isSelect":false,"isBooked":false,"isGender":false,"id":"2-B", "busno":2
+                },
+                {
+                    "no":3,"isSelect":false,"isBooked":false,"isGender":false,"id":"3-B","busno":2
+                },
+                {
+                    "no":4,"isSelect":false,"isBooked":false,"isGender":false,"id":"4-B", "busno":2
+                },
+                {
+                   "no":5,"isSelect":false,"isBooked":false,"isGender":false,"id":"5-B", "busno":2
+                },
+                {
+                    "no":6,"isSelect":false,"isBooked":false,"isGender":false,"id":"6-B","busno":2
+                },
+                {
+                    "no":7,"isSelect":false,"isBooked":false,"isGender":false,"id":"7-B", "busno":2
+                },
+                {
+                    "no":8,"isSelect":false,"isBooked":false,"isGender":false,"id":"8-B", "busno":2
+                },
+                {
+                    "no":9,"isSelect":false,"isBooked":false,"isGender":false,"id":"9-B", "busno":2
+                },
+                {
+                    "no":10,"isSelect":false,"isBooked":false,"isGender":false,"id":"10-B", "busno":2
+                }
+                ,
+                {
+                    "no":11,"isSelect":false,"isBooked":false,"isGender":false,"id":"11-B", "busno":2
+                },
+                {
+                    "no":12,"isSelect":false,"isBooked":false,"isGender":false,"id":"12-B", "busno":2
+                },
+                {
+                    "no":13,"isSelect":false,"isBooked":false,"isGender":false,"id":"13-B", "busno":2
+                },
+                 {
+                    "no":14,"isSelect":false,"isBooked":false,"isGender":false,"id":"14-B","busno":2
+                },
+                {
+                    "no":15,"isSelect":false,"isBooked":false,"isGender":false,"id":"15-B", "busno":2
+                }   
+            ]
+            },
+            {
+                "Busname":"RspKannan Bus Services",
+                "busno":3,
+                "type":"A/C Seater / Sleeper (2+1)",
+                "starttime":"21.30",
+                "start":"Tirunelveli",
+                "duration":"11h 30m",
+                "arrival":"Chennai",
+                "rating":"5.0",
+                "fare":1000,
+                "seatavabilty":"2 Seat Avabile",
+                "windowset":"2 Window Avabile",
+                "tracking":"Live Tracking",
+                "return":"Return Trip redDeal : Unlock min. 10% OFF on return ticket",
+                "bord":"Boarding Point",
+                "drop":"Droping Point",
+                "drop1":"Tirunelveli New Bus Stop",
+                "drop2":"Tirunelveli Old Bus Stop",
+                "drop3":"Tirunelveli Junction",
+                "board1":"Madavakam",
+                "board2":"Chennai Junction",
+                "board3":"Chennai New Bus Stop",
+                "isSeat":false,
+                "isbook":false,
+                "seats":[
+                    {
+                    "no":1,"isSelect":false,"isBooked":false,"isGender":false,"id":"1-C", "busno":3
+                 },
+                {
+                    "no":2,"isSelect":false,"isBooked":false,"isGender":false,"id":"2-C", "busno":3
+                },
+                {
+                    "no":3,"isSelect":false,"isBooked":false,"isGender":false,"id":"3-C","busno":3
+                },
+                {
+                    "no":4,"isSelect":false,"isBooked":false,"isGender":false,"id":"4-C", "busno":3
+                },
+                {
+                   "no":5,"isSelect":false,"isBooked":false,"isGender":false,"id":"5-C", "busno":3
+                },
+                {
+                    "no":6,"isSelect":false,"isBooked":false,"isGender":false,"id":"6-C","busno":3
+                },
+                {
+                    "no":7,"isSelect":false,"isBooked":false,"isGender":false,"id":"7-C", "busno":3
+                },
+                {
+                    "no":8,"isSelect":false,"isBooked":false,"isGender":false,"id":"8-C", "busno":3
+                },
+                {
+                    "no":9,"isSelect":false,"isBooked":false,"isGender":false,"id":"9-C", "busno":3
+                },
+                {
+                    "no":10,"isSelect":false,"isBooked":false,"isGender":false,"id":"10-C", "busno":3
+                }
+                ,
+                {
+                    "no":11,"isSelect":false,"isBooked":false,"isGender":false,"id":"11-C", "busno":3
+                },
+                {
+                    "no":12,"isSelect":false,"isBooked":false,"isGender":false,"id":"12-C", "busno":3
+                },
+                {
+                    "no":13,"isSelect":false,"isBooked":false,"isGender":false,"id":"13-C", "busno":3
+                },
+                 {
+                    "no":14,"isSelect":false,"isBooked":false,"isGender":false,"id":"14-C","busno":3
+                },
+                {
+                    "no":15,"isSelect":false,"isBooked":false,"isGender":false,"id":"15-C", "busno":3
+                }   
+            ]
+            },
+            {
+                "Busname":"RspKannan Dulex Bus Services",
+                "busno":4,
+                "type":"A/C Seater / Sleeper (2+1)",
+                "starttime":"21.30",
+                "start":"Tirunelveli",
+                "duration":"11h 30m",
+                "arrival":"Chennai",
+                "rating":"4.9",
+                "fare":1200,
+                "seatavabilty":"2 Seat Avabile",
+                "windowset":"2 Window Avabile",
+                "tracking":"Live Tracking",
+                "return":"Return Trip redDeal : Unlock min. 10% OFF on return ticket",
+                "bord":"Boarding Point",
+                "drop":"Droping Point",
+                "drop1":"Tirunelveli New Bus Stop",
+                "drop2":"Tirunelveli Old Bus Stop",
+                "drop3":"Tirunelveli Junction",
+                "board1":"Madavakam",
+                "board2":"Chennai Junction",
+                "board3":"Chennai New Bus Stop",
+                "isSeat":false,
+                "isbook":false,
+                "seats":[
+                    {
+                    "no":1,"isSelect":false,"isBooked":false,"isGender":false,"id":"1-D", "busno":4
+                 },
+                {
+                    "no":2,"isSelect":false,"isBooked":false,"isGender":false,"id":"2-D", "busno":4
+                },
+                {
+                    "no":3,"isSelect":false,"isBooked":false,"isGender":false,"id":"3-D","busno":4
+                },
+                {
+                    "no":4,"isSelect":false,"isBooked":false,"isGender":false,"id":"4-D", "busno":4
+                },
+                {
+                   "no":5,"isSelect":false,"isBooked":false,"isGender":false,"id":"5-D", "busno":4
+                },
+                {
+                    "no":6,"isSelect":false,"isBooked":false,"isGender":false,"id":"6-D","busno":4
+                },
+                {
+                    "no":7,"isSelect":false,"isBooked":false,"isGender":false,"id":"7-D", "busno":4
+                },
+                {
+                    "no":8,"isSelect":false,"isBooked":false,"isGender":false,"id":"8-D", "busno":4
+                },
+                {
+                    "no":9,"isSelect":false,"isBooked":false,"isGender":false,"id":"9-D", "busno":4
+                },
+                {
+                    "no":10,"isSelect":false,"isBooked":false,"isGender":false,"id":"10-D", "busno":4
+                }
+                ,
+                {
+                    "no":11,"isSelect":false,"isBooked":false,"isGender":false,"id":"11-D", "busno":4
+                },
+                {
+                    "no":12,"isSelect":false,"isBooked":false,"isGender":false,"id":"12-D", "busno":4
+                },
+                {
+                    "no":13,"isSelect":false,"isBooked":false,"isGender":false,"id":"13-D", "busno":4
+                },
+                 {
+                    "no":14,"isSelect":false,"isBooked":false,"isGender":false,"id":"14-D","busno":4
+                },
+                {
+                    "no":15,"isSelect":false,"isBooked":false,"isGender":false,"id":"15-D", "busno":4
+                }   
+            ]
+            },
+            {
+                "Busname":"RspK Dulex Bus Services",
+                "busno":5,
+                "type":"A/C Seater / Sleeper (2+1)",
+                "starttime":"21.30",
+                "start":"Tirunelveli",
+                "duration":"11h 30m",
+                "arrival":"Chennai",
+                "rating":"4.8",
+                "fare":1100,
+                "seatavabilty":"2 Seat Avabile",
+                "windowset":"2 Window Avabile",
+                "tracking":"Live Tracking",
+                "return":"Return Trip redDeal : Unlock min. 10% OFF on return ticket",
+                "bord":"Boarding Point",
+                "drop":"Droping Point",
+                "drop1":"Tirunelveli New Bus Stop",
+                "drop2":"Tirunelveli Old Bus Stop",
+                "drop3":"Tirunelveli Junction",
+                "board1":"Madavakam",
+                "board2":"Chennai Junction",
+                "board3":"Chennai New Bus Stop",
+                "isSeat":false,
+                "isbook":false,
+                "seats":[
+                    {
+                    "no":1,"isSelect":false,"isBooked":false,"isGender":false,"id":"1-E", "busno":5
+                 },
+                {
+                    "no":2,"isSelect":false,"isBooked":false,"isGender":false,"id":"2-E", "busno":5
+                },
+                {
+                    "no":3,"isSelect":false,"isBooked":false,"isGender":false,"id":"3-E","busno":5
+                },
+                {
+                    "no":4,"isSelect":false,"isBooked":false,"isGender":false,"id":"4-E", "busno":5
+                },
+                {
+                   "no":5,"isSelect":false,"isBooked":false,"isGender":false,"id":"5-E", "busno":5
+                },
+                {
+                    "no":6,"isSelect":false,"isBooked":false,"isGender":false,"id":"6-E","busno":5
+                },
+                {
+                    "no":7,"isSelect":false,"isBooked":false,"isGender":false,"id":"7-E", "busno":5
+                },
+                {
+                    "no":8,"isSelect":false,"isBooked":false,"isGender":false,"id":"8-E", "busno":5
+                },
+                {
+                    "no":9,"isSelect":false,"isBooked":false,"isGender":false,"id":"9-E", "busno":5
+                },
+                {
+                    "no":10,"isSelect":false,"isBooked":false,"isGender":false,"id":"10-E", "busno":5
+                }
+                ,
+                {
+                    "no":11,"isSelect":false,"isBooked":false,"isGender":false,"id":"11-E", "busno":5
+                },
+                {
+                    "no":12,"isSelect":false,"isBooked":false,"isGender":false,"id":"12-E", "busno":5
+                },
+                {
+                    "no":13,"isSelect":false,"isBooked":false,"isGender":false,"id":"13-E", "busno":5
+                },
+                 {
+                    "no":14,"isSelect":false,"isBooked":false,"isGender":false,"id":"14-E","busno":5
+                },
+                {
+                    "no":15,"isSelect":false,"isBooked":false,"isGender":false,"id":"15-E", "busno":5
+                }   
+            ]
+            }
+        ]
+
+
+    }]
+}
