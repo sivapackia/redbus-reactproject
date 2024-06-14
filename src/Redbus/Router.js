@@ -7,7 +7,7 @@ import Booking from "./Booking/Booking";
 const Router=()=>{
     return(
         <>
-        <BrowserRouter>
+        <BrowserRouter  basename={process.env.PUBLIC_URL}>
         <Routes>
             <Route path="/" element={<Component/>}></Route>
             <Route path="/Banner" element={<Banner/>}></Route>

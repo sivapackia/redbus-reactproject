@@ -77,14 +77,14 @@ const Component=()=>{
       let x=State.Array.some((value,index)=>{
         return from==value.from && to==value.to
       })
-      if(x==true && todaydate!=null){
+      if(x==true){
         let x=State.Array.find((value,index)=>{
           return from==value.from && to==value.to 
         })
         a(`/Banner?id=${x.busid}&from=${from}&to=${to}`)
       }
       else{
-        alert("Enter Correct From And To City Name And Date")
+        alert("ENTER FROM CITY NAME TIRUNELVELI AND TO CITY NAME CHENNAI")
       }
      
     }
@@ -97,9 +97,9 @@ const Component=()=>{
         if(event.target.name==="To"){
           setto((event.target.value).toUpperCase())
         }
-        if(event.target.name==="date"){
-          setdate((event.target.value))
-        }
+        // if(event.target.name==="date"){
+        //   setdate((event.target.value))
+        // }
     }
     console.log(date)
 
