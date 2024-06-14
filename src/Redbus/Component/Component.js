@@ -38,6 +38,7 @@ const Component=()=>{
     const [anchorElUser, setAnchorElUser] = React.useState(null);
     const[from,setfrom]=useState("")
     const[to,setto]=useState("")
+    const[date,setdate]=useState(null)
   
     const handleOpenNavMenu = (event) => {
       setAnchorElNav(event.currentTarget);
@@ -70,17 +71,18 @@ const Component=()=>{
     const a=useNavigate()
   
     const Search=()=>{
+      let todayDate=date
       let x=State.Array.some((value,index)=>{
         return from==value.from && to==value.to
       })
-      if(x==true){
+      if(x==true && todayDate != null){
         let x=State.Array.find((value,index)=>{
           return from==value.from && to==value.to 
         })
         a(`/Banner?id=${x.busid}&from=${from}&to=${to}`)
       }
       else{
-        alert("ENTER FROM CITY NAME TIRUNELVELI AND TO CITY NAME CHENNAI")
+        alert("ENTER FROM CITY NAME TIRUNELVELI AND TO CITY NAME CHENNAI AND DATE")
       }
      
     }
@@ -92,6 +94,9 @@ const Component=()=>{
         }
         if(event.target.name=="To"){
           setto((event.target.value).toUpperCase())
+        }
+        if(event.target.name=="Date"){
+          setdate((event.target.value).toUpperCase())
         }
     }
 
@@ -307,7 +312,7 @@ const Component=()=>{
               </Typography>
             </Typography>
             <Typography sx={{width:"25%",textAlign:"center",borderRight:"1px solid gray",padding:"50px 0px"}}>
-              <Typography component="input" type="date" className="Input">
+              <Typography component="input" type="date" className="Input" value={date} name="Date" onChange={Handle}>
               </Typography>
             </Typography>
             <Typography sx={{width:"25%",textAlign:"center",borderRadius:"0px 30px 30px 0px",padding:"50px 0px",backgroundColor:"rgb(216, 78, 85)"}}  onClick={()=>Search()}>
@@ -334,7 +339,7 @@ const Component=()=>{
               </Typography>
       </Typography>
       <Typography sx={{width:{xs:"95%",sm:"95%"},textAlign:"center",borderRight:"1px solid gray",padding:"20px 0px",boxShadow:"0px 0px 5px gray",margin:"auto",marginBottom:"15px"}}>
-              <Typography component="input" type="date" className="Input">
+              <Typography component="input" type="date" className="Input" value={date} name="Date" onChange={Handle}>
               </Typography>
             </Typography>
       <Typography sx={{width:{xs:"95%",sm:"95%"},textAlign:"center",borderRadius:"10px",padding:"20px 0px",backgroundColor:"rgb(216, 78, 85)",boxShadow:"0px 0px 5px gray",margin:"auto",marginBottom:"15px"}}  onClick={()=>Search()}>
